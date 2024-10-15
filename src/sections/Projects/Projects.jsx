@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css'
 import dmg from '../../assets/discount my groceries.png'
 import loopOfThings from '../../assets/loop of things logo rgb.png'
-import ProjectCard from './ProjectCard'
+import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
     return (
