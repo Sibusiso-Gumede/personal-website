@@ -73,3 +73,8 @@ input[type='submit']:active {
         width: 800px;
     }
 }
+
+.formSubmitResponse {
+    text-align: center;
+    justify-self: center;
+}

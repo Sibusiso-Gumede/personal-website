@@ -16,7 +16,7 @@ function Projects() {
                 />
                 <ProjectCard
                     src={loopOfThings}
-                    link=''
+                    link='https://github.com/Sibusiso-Gumede/loop-of-things'
                     h3='Loop of Things'
                     p='Entertainment events app.'
                 />

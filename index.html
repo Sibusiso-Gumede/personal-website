@@ -7,10 +7,22 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&family=Rubik:wght@800&display=swap" rel="stylesheet">
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<title>Sibusiso J. Gumede</title>
 	</head>
 	<body>
 		<div id="root"></div>
 		<script type="module" src="/src/main.jsx"></script>
+		<script type="text/javascript">
+			function recaptchaCallback() {
+				document.getElementById('submitButton').removeAttribute('disabled');
+			}
+			function validateForm(widget) {
+				if(widget.hasAttribute('disabled')) {
+					alert('Please complete the reCAPTCHA widget.');
+					document.getElementsByClassName("g-recaptcha").focus();
+				}
+			}
+		</script>
 	</body>
 </html>
