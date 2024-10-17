@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/hero-img.png';
+import profileImg from '../../assets/personal website profile photo.png';
 import moon from '../../assets/moon.svg';
 import sun from '../../assets/sun.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
@@ -19,7 +19,7 @@ function Hero() {
             <div className={styles.colorModeContainer}>
                 <img 
                     className={styles.hero} 
-                    src={heroImg} 
+                    src={profileImg} 
                     alt="Profile picture of Sibusiso Gumede"
                 />
                 <img 
