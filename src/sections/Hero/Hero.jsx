@@ -46,7 +46,7 @@ function Hero() {
                 </span>
                 <p className={styles.description}>
                     2 years experience in developing web and mobile applications.
-                    Well-versed in Django, Flutter and React.
+                    Equipped with a diverse skill set. Proficient in various platforms, frameworks and languages.
                     I possess transferable technical experience and can learn new technologies.
                 </p>
             </div>
