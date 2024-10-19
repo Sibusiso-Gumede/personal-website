@@ -46,7 +46,7 @@ function Hero() {
                 </span>
                 <p className={styles.description}>
                     2 years experience in developing web and mobile applications.
-                    A tinkerer and a builder who is passionate about software systems research and development.
+                    Well-versed in Django, Flutter and React.
                     I possess transferable technical experience and can learn new technologies.
                 </p>
             </div>
