@@ -45,7 +45,7 @@ function Hero() {
                     </a>
                 </span>
                 <p className={styles.description}>
-                    2 years experience in developing web and mobile applications.
+                    2 years experience in developing reliable and robust systems.
                     Equipped with a diverse skill set. Proficient in various platforms, frameworks, and languages.
                     I possess transferable technical experience and can learn new technologies.
                 </p>
